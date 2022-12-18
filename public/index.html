@@ -8,21 +8,61 @@
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body>
-    <div class="container mx-auto">
-      <nav>
-        <div>
+    <!-- Nav Section -->
+    <div class="container mx-auto bg-gray-100 mt-4 rounded-full">
+      <nav class="flex items-center justify-between">
+        <div class="h-16 w-16">
           <a href="/">
-            <img src="https://picsum.photos/200" alt="lorem image" />
+            <img
+              class="rounded-full"
+              src="https://picsum.photos/200"
+              alt="lorem image"
+            />
           </a>
         </div>
-        <ul>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="flex space-x-6">
+          <li>
+            <a href="#" class="text-gray-900 hover:text-green-700 font-bold"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-gray-900 hover:text-green-700 font-bold"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-gray-900 hover:text-green-700 font-bold"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-gray-900 hover:text-green-700 font-bold"
+              >Contact</a
+            >
+          </li>
         </ul>
-        <button>Sign Up</button>
+        <button
+          class="px-6 py-2 bg-blue-400 rounded-full mr-2 text-white hover:bg-blue-500 capitalize"
+        >
+          Sign Up
+        </button>
       </nav>
     </div>
+    <main>
+      <!-- Hero Section -->
+      <div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
+            quisquam perspiciatis aspernatur, animi porro distinctio dicta et
+            adipisci repudiandae rem? Fugit ea dolorem natus sed nesciunt
+            facilis corporis earum porro.
+          </p>
+        </div>
+        <button>Get Started</button>
+        <div></div>
+      </div>
+    </main>
   </body>
 </html>
