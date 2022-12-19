@@ -11,7 +11,7 @@
     <!-- Nav Section -->
     <section id="nav">
       <div
-        class="container mx-auto scale-95 md:scale-100 bg-gray-100 mt-4 rounded-full"
+        class="container mx-auto scale-95 md:scale-100 bg-gray-100 mt-4 rounded-full w"
       >
         <nav class="flex items-center justify-between">
           <div class="h-10 lg:h-16 w-10 lg:w-16">
@@ -91,12 +91,12 @@
       <!-- Main Section -->
       <section id="main">
         <div
-          class="container flex flex-col md:flex-row mx-auto mt-12 text-center"
+          class="container flex flex-col md:flex-row mx-auto mt-12 text-center md:text-sm"
         >
           <div
             class="w-full md:w-1/2 border-2 border-blue-100 md:border-none scale-90 md:scale-100 rounded-2xl md:rounded-none -my-2 md:my-0 justify-center p-2"
           >
-            <h2 class="text 2xl text-gray-900 font-bold mb-12">
+            <h2 class="text 2xl text-gray-900 font-bold md:mb-2 mb-12">
               Web Development
             </h2>
             <img
@@ -114,7 +114,7 @@
           <div
             class="w-full md:w-1/2 border-2 border-blue-100 md:border-none scale-90 md:scale-100 rounded-2xl md:rounded-none -my-2 md:my-0 justify-center p-2"
           >
-            <h2 class="text 2xl text-gray-900 font-bold mb-12">
+            <h2 class="text 2xl text-gray-900 font-bold md:mb-2 mb-12">
               Game Development
             </h2>
             <img
@@ -132,7 +132,7 @@
           <div
             class="w-full md:w-1/2 border-2 border-blue-100 md:border-none scale-90 md:scale-100 rounded-2xl md:rounded-none -my-2 md:my-0 justify-center p-2"
           >
-            <h2 class="text 2xl text-gray-900 font-bold mb-12">
+            <h2 class="text 2xl text-gray-900 font-bold md:mb-2 mb-12">
               Mobile Development
             </h2>
             <img
@@ -150,7 +150,9 @@
           <div
             class="w-full md:w-1/2 border-2 border-blue-100 md:border-none scale-90 md:scale-100 rounded-2xl md:rounded-none -my-2 md:my-0 justify-center p-2"
           >
-            <h2 class="text 2xl text-gray-900 font-bold mb-12">Design</h2>
+            <h2 class="text 2xl text-gray-900 font-bold md:mb-2 mb-12">
+              Design
+            </h2>
             <img
               class="h-52 mx-auto mb-8"
               src="../images/design.svg"
@@ -184,10 +186,10 @@
           </div>
           <!-- grid table -->
           <div
-            class="grid grid-cols-1 justify-items-center md:grid-cols-3 md:gap-4 md:mx-32"
+            class="grid grid-cols-1 justify-items-center lg:grid-cols-3 md:gap-4 md:mx-32"
           >
             <div
-              class="bg-gray-200 md:mx-32 h-96 rounded-3xl w-80 mt-6 md:mt-14 hover:shadow-xl text-center"
+              class="bg-gray-200 h-96 w-80 rounded-3xl mt-6 md:mt-14 hover:shadow-xl text-center"
             >
               <p class="text-5xl text-blue-900 font-bold mt-8">$199</p>
               <h2 class="text-blue-400 font-bold mb-6">Basic</h2>
@@ -506,7 +508,7 @@
         </div>
         <!-- Grid -->
         <div
-          class="grid grid-cols-1 justify-items-center md:grid-cols-3 md:gap-4 md:mx-32"
+          class="grid grid-cols-1 justify-items-center lg:grid-cols-3 lg:gap-4 lg:mx-32"
         >
           <div
             class="bg-gray-200 rounded-3xl h-[27.5rem] w-80 mt-14 hover:shadow-xl text-center"
@@ -581,7 +583,7 @@
         </div>
       </section>
     </main>
-    <footer id="footer" class="mx-auto bg-gray-300 mt-6">
+    <footer id="footer" class="mx-auto bg-gray-300 mt-6 relative">
       <!-- socials -->
       <div class="mt-6 pt-[16px] flex justify-center">
         <a href="/"
@@ -620,7 +622,9 @@
       </div>
       <p></p>
     </footer>
-    <span class="ml-6 text-sm italic text-gray-800 inline-block float-left">
+    <span
+      class="ml-1 md:ml-6 text-sm italic text-gray-800 inline-block float-left absolute -translate-y-5"
+    >
       Icons by
       <a target="_blank" href="https://icons8.com">Icons8</a></span
     >
