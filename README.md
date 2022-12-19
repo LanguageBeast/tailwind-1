@@ -1,2 +1,2 @@
 # tailwind-1
- Tailwind project.
+ Tailwind template landing page project.
